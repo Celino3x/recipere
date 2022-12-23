@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function() {
     return view('welcome');
 });
 
-Route::post('/cadastrar_visitante', function (Request $informacoes) {
+Route::post('/cadastrar_visitante', function(Request $informacoes) {
     dd($informacoes->all());
 });

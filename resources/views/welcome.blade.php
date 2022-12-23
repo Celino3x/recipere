@@ -34,31 +34,31 @@
           </nav>
     </header>
 
-    <section class="container" method="POST">
-        
-        <form action="/cadastrar_visitante">
+    <section class="container">
+
+        <form action="/cadastrar_visitante" method="POST">
             <div class="mb-3">
               <label for="" class="form-label">Nome</label>
-              <input type="text" class="form-control" id="nome" >              
+              <input type="text" class="form-control" id="nome" >
             </div>
 
             <div class="mb-3">
                 <label for="" class="form-label">Data Nascimento</label>
-                <input type="text" class="form-control" id="data_nascimento" >              
+                <input type="text" class="form-control" id="data_nascimento" >
             </div>
 
             <div class="mb-3">
                 <label for="" class="form-label">Endereço</label>
-                <input type="text" class="form-control" id="endereco" >              
+                <input type="text" class="form-control" id="endereco" >
             </div>
 
             <div class="mb-3">
                 <label for="" class="form-label">CEP</label>
-                <input type="text" class="form-control" id="cep" >              
+                <input type="text" class="form-control" id="cep" >
             </div>
 
 
-           
+
             <button type="submit" class="btn btn-dark">Submit</button>
           </form>
     </section>
